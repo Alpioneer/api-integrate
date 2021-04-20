@@ -1,10 +1,10 @@
 import React from 'react';
-import Users from './Users'
+import Counter from './Counter'
 
 function App() {
   return(<>
 
-  <Users/>
+  <Counter/>
   </>
 
   )
