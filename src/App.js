@@ -1,13 +1,12 @@
 import React from 'react';
-import Users from './Users'
+import InputSample from './InputSample';
+
+
 
 function App() {
-  return(<>
-
-  <Users/>
-  </>
-
-  )
+  return (
+    <InputSample />
+  );
 }
 
 export default App;
