@@ -29,8 +29,9 @@ const Users=()=>{
 
             );
 
-
             setUsers(response.data);
+
+            console.log("useEffect 작동중")
 
 
         }  catch(e){
@@ -45,8 +46,12 @@ const Users=()=>{
 
 
     useEffect(()=>{
-
+   
          fetchUsers();
+        
+        
+
+        
 
     }, []);
 
